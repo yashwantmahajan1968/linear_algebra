@@ -16,7 +16,7 @@ def gram_schmidt(V_orig):
       V[:,i] = V[:,i]/np.sqrt(V[:,i].T@V[:,i])
     return V
 
-
+## can be completed later , not worth much time now
 def qr(A):
     """Returns Q, R where A = QR.
        Q from gram_schmidt. R = QᵀA (upper triangular)."""
