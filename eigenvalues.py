@@ -28,3 +28,5 @@ plt.quiver(0, 0,
 plt.axis('equal')
 plt.grid()
 plt.show()
+
+## also not doing the positive definite related codes for now.

@@ -1,0 +1,17 @@
+simple idea , we have a b vector not in column space of A, so 
+if we wanna solve Ax = b and get the x , apparently there isnt anyone because b isnt in col space of A 
+
+so what we do is we try to find the closest vector b' in column space which is called projection of b onto 
+the col space of A ,
+
+and we know the closes one from b which is in col space of A should follow that b' = Ax 
+
+and AT . (b-b') = 0. ,basically perpendicualr that will make it the projection and closes to b and on col space of A
+solving this 
+AT.(b-Ax) = 0,
+(ATA)-1ATb = x , now we know the x and Ax = b'
+
+works only when cols of A independentx
+
+
+used in - fitting lines and so on

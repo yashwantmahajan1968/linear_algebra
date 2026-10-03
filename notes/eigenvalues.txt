@@ -1,0 +1,11 @@
+the idea is simply when a transformation like A is applied to any vector , what are all the vectors that still stay in
+the same line , might be streteched but not rotated or anything
+
+Ax = Lx (L is a constant not matrix short for lambda)
+
+then we find (A-LI)x = 0
+by solving the determinant , and we want the (A-LI) to be singular , basically if it were non singular it can never make 
+any vector x when multiplied by it zero except for zero vector . and those special L on solving it are called eigenvalues 
+
+and the x we get are the null space of (A-LI)
+
