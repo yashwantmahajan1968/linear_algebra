@@ -1,0 +1,21 @@
+svd is a way of looking at the matrix A , tell what it does to any vector , rotating then stretching then rotating
+
+basically we r finding two orthogonal basis which maps from one to another such that Avi = sigmai ui
+
+vi being in row space and ui being in column space 
+
+A transforms the vector in row space such that it is still a orthogonal vector in column space and is independent of any rotations
+just stretching
+
+
+A can transform any vector vi such that it ends up ui , and all ui are othogonal to each other and vi are orthogonal to each other 
+,beauty is everything remaining on the axes 
+
+
+Every linear map turns a circle into an ellipse; SVD tells you which perpendicular directions of the circle become the ellipse's axes, and how long those axes are.
+
+
+
+Every matrix, however messy it looks, is secretly simple. If you choose the right set of perpendicular directions on the input side and the 
+right set on the output side, the matrix just sends each input direction to its partner on the output side, stretching it by some amount. 
+Nothing mixes; each direction travels alone.
